@@ -13,8 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:  # Define environment variables here
-      DOCKER_IMAGE: farzanapasha/user-api-demo
+    env:
+      DOCKER_IMAGE: farzanapasha/jwt-auth-api
 
     steps:
     # Step 1: Checkout the repository
