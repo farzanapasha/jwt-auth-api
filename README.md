@@ -1,6 +1,6 @@
-# User API
+# JWT Auth API
 
-This is a Node.js-based User API that provides authentication and user management functionalities.
+This is a Node.js-based API project that provides jwt authentication and user management functionalities.
 
 ## Features
 - User authentication using JWT
@@ -18,8 +18,8 @@ This is a Node.js-based User API that provides authentication and user managemen
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/user-api.git
-   cd user-api
+   git clone https://github.com/farzanapasha/jwt-auth-api.git
+   cd jwt-auth-api
    ```
 
 2. Install dependencies:
@@ -30,11 +30,11 @@ This is a Node.js-based User API that provides authentication and user managemen
 3. Configure environment variables:
    Create a `.env` file in the root directory and add:
    ```env
-   JWT_SECRET=your_jwt_secret
+   JWT_SECRET=user_jwt_secret
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=password
-   DB_NAME=userdb
+   DB_NAME=apidb
    ```
 
 4. Run database migrations (if applicable).
@@ -48,7 +48,7 @@ npm start
 
 ### Running with Docker
 ```sh
-docker build -t user-api .
+docker build -t jwt-auth-api .
 docker run -p 8000:8000 --env-file .env user-api
 ```
 
