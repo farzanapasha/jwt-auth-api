@@ -41,6 +41,11 @@ This is a Node.js-based API project that provides jwt authentication and user ma
 
 ## Running the API
 
+### Run Tests
+```sh
+npm test
+```
+
 ### Development
 ```sh
 npm start
