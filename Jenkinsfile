@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = 'farzanapasha/user-api-demo'
+        DOCKER_IMAGE = 'farzanapasha/jwt-auth-api'
     }
     
     stages {
