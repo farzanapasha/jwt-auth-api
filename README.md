@@ -74,6 +74,10 @@ This project includes a GitHub Actions workflow to build and test the API on eac
 - **Builds Docker Image** on `feature/**` branches
 - **Runs tests** before merging to `main`
 
+### Trigger Pipeline
+- Push changes to your branch.
+- Create pull request to main branch
+
 # Jenkinsfile Configuration and Execution
 
 ## Prerequisites:
